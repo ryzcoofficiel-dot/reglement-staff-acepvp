@@ -22,216 +22,249 @@
     </div>
 
     <nav class="nav" aria-label="Navigation">
-      <a href="#principes">Principes</a>
-      <a href="#give">Give</a>
-      <a href="#modes">Modes</a>
-      <a href="#abus">Abus</a>
+      <a href="#resume">Résumé</a>
+      <a href="#categories">Catégories</a>
       <a href="#barreme">Barème</a>
     </nav>
   </header>
 
   <main class="container">
-    <section class="hero">
+    <section id="resume" class="hero">
       <div class="hero-card">
         <h2>Cadre officiel</h2>
         <p>
-          Ce règlement s’applique à <strong>tout le staff</strong>. Toute action staff doit rester
-          <strong>justifiée</strong>, <strong>proportionnée</strong> et <strong>traçable</strong>.
+          Règlement interne destiné au staff. Les règles sont organisées par <strong>catégories</strong> pour rester claires.
         </p>
         <div class="chips">
-          <span class="chip">Neutralité</span>
-          <span class="chip">Traçabilité</span>
-          <span class="chip">Zéro abus</span>
+          <span class="chip">Organisé</span>
+          <span class="chip">Lisible</span>
+          <span class="chip">Strict</span>
         </div>
       </div>
 
       <aside class="quick">
         <div class="quick-card">
-          <h3>Résumé</h3>
-          <ul>
-            <li>Give interdit (hors exceptions validées)</li>
-            <li>Modes admin interdits en zones de combat (hors event validé)</li>
-            <li>Self-revive pour éviter le loot interdit</li>
-            <li>Sanctions injustifiées / abus de perm interdits</li>
-          </ul>
+          <h3>Sommaire</h3>
+          <ol class="toc">
+            <li><a href="#cat-1">Gives & Remboursements</a></li>
+            <li><a href="#cat-2">Modes admin & Avantages (zones sensibles)</a></li>
+            <li><a href="#cat-3">Spawns & Gestion des joueurs</a></li>
+            <li><a href="#cat-4">Preuves, logs & intégrité</a></li>
+            <li><a href="#cat-5">Sanctions & Modération</a></li>
+            <li><a href="#cat-6">Tickets & Support</a></li>
+            <li><a href="#cat-7">Hiérarchie & fonctionnement interne</a></li>
+            <li><a href="#cat-8">Events</a></li>
+            <li><a href="#cat-9">Confidentialité, données & sécurité</a></li>
+            <li><a href="#cat-10">Bugs & exploit</a></li>
+            <li><a href="#cat-11">Conflits d’intérêts & abus relationnels</a></li>
+            <li><a href="#cat-12">Comptes & accès staff</a></li>
+            <li><a href="#cat-13">Communication (vocal/texte)</a></li>
+          </ol>
         </div>
       </aside>
     </section>
 
-    <section id="principes" class="section">
+    <section id="categories" class="section">
       <div class="section-title">
-        <h2>1) Principes</h2>
+        <h2>Règles par catégories</h2>
+        <p class="muted">Numérotation continue pour référence rapide.</p>
       </div>
 
-      <div class="grid">
-        <article class="card">
-          <h3>Justification</h3>
-          <p>Chaque intervention repose sur un motif clair (règle enfreinte, ticket, consigne event).</p>
-        </article>
-
-        <article class="card">
-          <h3>Proportion</h3>
-          <p>Les actions et sanctions sont cohérentes, adaptées et non excessives.</p>
-        </article>
-
-        <article class="card">
-          <h3>Traçabilité</h3>
-          <p>Les actions sensibles doivent pouvoir être vérifiées (logs, ticket, preuves).</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="give" class="section">
-      <div class="section-title">
-        <h2>2) Give</h2>
-      </div>
-
-      <div class="split">
-        <article class="card">
-          <h3>Interdiction</h3>
-          <p>
-            Le <strong>give</strong> (items/argent/armes/ressources) est <strong>interdit</strong> pour l’ensemble du staff.
-          </p>
-          <div class="divider"></div>
-          <h4>Inclus</h4>
-          <ul class="list">
-            <li>Give “pour aider”, “pour tester”, “pour faire plaisir”.</li>
-            <li>Give déguisé (drop discret, coffre, échange indirect).</li>
-            <li>Bonus / compensations sans ticket validé.</li>
+      <div class="cat-grid">
+        <section class="cat" id="cat-1">
+          <header class="cat-head">
+            <h3>Gives & Remboursements</h3>
+            <span class="count">4 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">01</span><span class="t">Give illégal</span></li>
+            <li><span class="n">02</span><span class="t">Give déguisé</span></li>
+            <li><span class="n">03</span><span class="t">Remboursement sans validation</span></li>
+            <li><span class="n">04</span><span class="t">Remboursement supérieur à la perte réelle</span></li>
           </ul>
-        </article>
-
-        <article class="card card-accent">
-          <h3>Exceptions strictes</h3>
-          <ul class="list">
-            <li>
-              <strong>Managers Event</strong> pendant un événement de give
-              <span class="muted">(validation d’un responsable ou plus)</span>.
-            </li>
-            <li>
-              <strong>Remboursement</strong> suite à un ticket
-              <span class="muted">(preuves + validation + équivalent exact)</span>.
-            </li>
+        </section>
+        <section class="cat" id="cat-2">
+          <header class="cat-head">
+            <h3>Modes admin & Avantages (zones sensibles)</h3>
+            <span class="count">11 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">05</span><span class="t">Noclip en zone interdite</span></li>
+            <li><span class="n">06</span><span class="t">Invisible en zone interdite</span></li>
+            <li><span class="n">07</span><span class="t">Invincibilité en zone interdite</span></li>
+            <li><span class="n">08</span><span class="t">Abus de mode admin en situation PvP</span></li>
+            <li><span class="n">09</span><span class="t">Self-revive pour éviter le loot</span></li>
+            <li><span class="n">10</span><span class="t">Self-revive en combat</span></li>
+            <li><span class="n">11</span><span class="t">Téléportation en combat</span></li>
+            <li><span class="n">12</span><span class="t">Téléportation pour avantage personnel</span></li>
+            <li><span class="n">13</span><span class="t">Abus de freeze</span></li>
+            <li><span class="n">14</span><span class="t">Intervention en redzone sans nécessité</span></li>
+            <li><span class="n">15</span><span class="t">Intervention en pinkzone sans nécessité</span></li>
           </ul>
-          <div class="divider"></div>
-          <p class="sanction">
-            <span class="badge danger">Sanction</span>
-            <strong>Démote immédiat + Blacklist Staff</strong>
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section id="modes" class="section">
-      <div class="section-title">
-        <h2>3) Modes admin (noclip / invisible / invincible)</h2>
-      </div>
-
-      <div class="grid">
-        <article class="card">
-          <h3>Interdiction en zones de combat</h3>
-          <p>
-            Noclip, invisible, invincible, godmode (ou équivalent) sont <strong>interdits</strong> en
-            <strong>redzone</strong>, <strong>pinkzone</strong> et toute zone de combat/loot,
-            <strong>sauf</strong> lors d’un événement validé qui le nécessite.
-          </p>
-          <div class="divider"></div>
-          <h4>Exception</h4>
-          <p>
-            Autorisé uniquement si un <strong>événement le nécessite</strong> et avec <strong>validation</strong>
-            (et seulement le temps strictement nécessaire).
-          </p>
-          <div class="divider"></div>
-          <p class="sanction">
-            <span class="badge danger">Sanction</span>
-            <strong>Démote immédiat + Blacklist Staff</strong>
-          </p>
-        </article>
-
-        <article class="card card-accent">
-          <h3>Actions autorisées</h3>
-          <ul class="list">
-            <li><strong>Observer un fight en invisible</strong> (autorisé).</li>
-            <li><strong>Suivre un joueur en noclip</strong> en zone chaude (autorisé).</li>
+        </section>
+        <section class="cat" id="cat-3">
+          <header class="cat-head">
+            <h3>Spawns & Gestion des joueurs</h3>
+            <span class="count">7 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">16</span><span class="t">Spawn d’objets sans ticket</span></li>
+            <li><span class="n">17</span><span class="t">Spawn de véhicule non autorisé</span></li>
+            <li><span class="n">18</span><span class="t">Modification de stats joueur</span></li>
+            <li><span class="n">19</span><span class="t">Modification d’argent joueur</span></li>
+            <li><span class="n">20</span><span class="t">Reset inventaire abusif</span></li>
+            <li><span class="n">21</span><span class="t">Clear zone abusif</span></li>
+            <li><span class="n">22</span><span class="t">Clear wanted abusif</span></li>
           </ul>
-          <div class="divider"></div>
-          <p class="muted">
-            Ces actions restent soumises au respect des principes (neutralité, proportion, traçabilité).
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Self-revive</h3>
-          <p>
-            Le <strong>self-revive</strong> (ou équivalent) pour <strong>éviter le loot</strong> ou annuler une conséquence
-            est <strong>interdit</strong> et ne sera pas toléré.
-          </p>
-          <div class="divider"></div>
-          <p class="sanction">
-            <span class="badge warn">Sanction</span>
-            <strong>Démote (minimum) / Blacklist selon gravité</strong>
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section id="abus" class="section">
-      <div class="section-title">
-        <h2>4) Sanctions injustifiées & abus de permissions</h2>
-      </div>
-
-      <div class="split">
-        <article class="card">
-          <h3>Interdit</h3>
-          <ul class="list">
-            <li><strong>Warn / jail / ban</strong> sans raison claire.</li>
-            <li>Sanction par énervement, vengeance, pression ou favoritisme.</li>
-            <li>Menaces abusives hors cadre.</li>
-            <li>Utiliser un outil staff pour “gagner” une dispute.</li>
+        </section>
+        <section class="cat" id="cat-4">
+          <header class="cat-head">
+            <h3>Preuves, logs & intégrité</h3>
+            <span class="count">4 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">23</span><span class="t">Suppression de preuves</span></li>
+            <li><span class="n">24</span><span class="t">Suppression de logs</span></li>
+            <li><span class="n">25</span><span class="t">Altération de preuves</span></li>
+            <li><span class="n">26</span><span class="t">Tentative de dissimulation d’erreur</span></li>
           </ul>
-        </article>
-
-        <article class="card card-accent">
-          <h3>Obligations</h3>
-          <ul class="list">
-            <li>Motif précis + cohérence des sanctions.</li>
-            <li>Preuves quand nécessaire (logs, clip, capture, ticket).</li>
-            <li>Décisions lourdes via responsable (ban longs, remboursements importants, exceptions).</li>
+        </section>
+        <section class="cat" id="cat-5">
+          <header class="cat-head">
+            <h3>Sanctions & Modération</h3>
+            <span class="count">7 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">27</span><span class="t">Ban injustifié</span></li>
+            <li><span class="n">28</span><span class="t">Warn injustifié</span></li>
+            <li><span class="n">29</span><span class="t">Jail injustifié</span></li>
+            <li><span class="n">30</span><span class="t">Kick injustifié</span></li>
+            <li><span class="n">31</span><span class="t">Sanction par vengeance</span></li>
+            <li><span class="n">32</span><span class="t">Sanction par énervement</span></li>
+            <li><span class="n">33</span><span class="t">Menace abusive de sanction</span></li>
           </ul>
-
-          <div class="divider"></div>
-          <p class="sanction">
-            <span class="badge warn">Sanction</span>
-            <strong>Démote / Blacklist selon gravité & récidive</strong>
-          </p>
-        </article>
+        </section>
+        <section class="cat" id="cat-6">
+          <header class="cat-head">
+            <h3>Tickets & Support</h3>
+            <span class="count">6 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">34</span><span class="t">Manipulation de ticket</span></li>
+            <li><span class="n">35</span><span class="t">Fermeture abusive de ticket</span></li>
+            <li><span class="n">36</span><span class="t">Traitement prioritaire injustifié</span></li>
+            <li><span class="n">37</span><span class="t">Refus volontaire d’intervention</span></li>
+            <li><span class="n">38</span><span class="t">Non-transmission d’un problème grave</span></li>
+            <li><span class="n">39</span><span class="t">Intervention hors compétence</span></li>
+          </ul>
+        </section>
+        <section class="cat" id="cat-7">
+          <header class="cat-head">
+            <h3>Hiérarchie & fonctionnement interne</h3>
+            <span class="count">6 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">40</span><span class="t">Décision lourde sans validation</span></li>
+            <li><span class="n">41</span><span class="t">Refus d’obéir à un responsable</span></li>
+            <li><span class="n">42</span><span class="t">Non-respect de la hiérarchie</span></li>
+            <li><span class="n">43</span><span class="t">Récidive après avertissement staff</span></li>
+            <li><span class="n">44</span><span class="t">Modification des règles sans accord</span></li>
+            <li><span class="n">45</span><span class="t">Entrave volontaire à une enquête interne</span></li>
+          </ul>
+        </section>
+        <section class="cat" id="cat-8">
+          <header class="cat-head">
+            <h3>Events</h3>
+            <span class="count">2 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">46</span><span class="t">Event non autorisé</span></li>
+            <li><span class="n">47</span><span class="t">Récompense event non validée</span></li>
+          </ul>
+        </section>
+        <section class="cat" id="cat-9">
+          <header class="cat-head">
+            <h3>Confidentialité, données & sécurité</h3>
+            <span class="count">5 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">48</span><span class="t">Divulgation d’informations internes</span></li>
+            <li><span class="n">49</span><span class="t">Utilisation d’informations staff en jeu</span></li>
+            <li><span class="n">50</span><span class="t">Abus d’accès aux bases de données</span></li>
+            <li><span class="n">51</span><span class="t">Utilisation du panel staff à des fins personnelles</span></li>
+            <li><span class="n">52</span><span class="t">Accès non autorisé aux comptes joueurs</span></li>
+          </ul>
+        </section>
+        <section class="cat" id="cat-10">
+          <header class="cat-head">
+            <h3>Bugs & exploit</h3>
+            <span class="count">2 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">53</span><span class="t">Exploitation d’un bug connu</span></li>
+            <li><span class="n">54</span><span class="t">Non-déclaration d’un bug exploitable</span></li>
+          </ul>
+        </section>
+        <section class="cat" id="cat-11">
+          <header class="cat-head">
+            <h3>Conflits d’intérêts & abus relationnels</h3>
+            <span class="count">7 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">55</span><span class="t">Favoritisme envers un joueur</span></li>
+            <li><span class="n">56</span><span class="t">Protection d’un proche</span></li>
+            <li><span class="n">57</span><span class="t">Ignorer volontairement une infraction</span></li>
+            <li><span class="n">58</span><span class="t">Double rôle staff/joueur non déclaré</span></li>
+            <li><span class="n">59</span><span class="t">Usage staff pendant son temps de jeu personnel</span></li>
+            <li><span class="n">60</span><span class="t">Harcèlement via permissions</span></li>
+            <li><span class="n">61</span><span class="t">Chantage via permissions</span></li>
+          </ul>
+        </section>
+        <section class="cat" id="cat-12">
+          <header class="cat-head">
+            <h3>Comptes & accès staff</h3>
+            <span class="count">5 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">62</span><span class="t">Utilisation d’un compte secondaire pour contourner une règle staff</span></li>
+            <li><span class="n">63</span><span class="t">Abus de permissions hors service</span></li>
+            <li><span class="n">64</span><span class="t">Utilisation de powers staff pour protéger son stuff personnel</span></li>
+            <li><span class="n">65</span><span class="t">Partage d’accès staff</span></li>
+            <li><span class="n">66</span><span class="t">Connexion staff depuis un compte non autorisé</span></li>
+          </ul>
+        </section>
+        <section class="cat" id="cat-13">
+          <header class="cat-head">
+            <h3>Communication (vocal/texte)</h3>
+            <span class="count">1 règle(s)</span>
+          </header>
+          <ul class="cat-list">
+            <li><span class="n">67</span><span class="t">Abus de permissions en vocal</span></li>
+          </ul>
+        </section>
       </div>
     </section>
 
     <section id="barreme" class="section">
       <div class="section-title">
-        <h2>5) Barème (rappel)</h2>
+        <h2>Barème (rappel)</h2>
+        <p class="muted">Les sanctions exactes restent à l’appréciation de la direction selon la gravité/récidive.</p>
       </div>
 
       <div class="grid">
         <article class="card">
-          <h3>Give illégal</h3>
-          <p><strong>Démote immédiat + Blacklist Staff</strong></p>
+          <h3>Gives / modes admin graves</h3>
+          <p><strong>Démote + Blacklist staff</strong></p>
         </article>
 
         <article class="card">
-          <h3>Modes admin interdits en zone de combat</h3>
-          <p><strong>Démote immédiat + Blacklist Staff</strong></p>
+          <h3>Abus de sanctions / preuves / données</h3>
+          <p><strong>Démote / Blacklist selon gravité</strong></p>
         </article>
 
         <article class="card">
-          <h3>Self-revive pour éviter le loot</h3>
-          <p><strong>Démote (minimum) / Blacklist selon gravité</strong></p>
-        </article>
-
-        <article class="card">
-          <h3>Sanctions injustifiées / abus de perm</h3>
-          <p><strong>Démote / Blacklist selon gravité & récidive</strong></p>
+          <h3>Tickets / fonctionnement</h3>
+          <p><strong>Avertissement → Démote si récidive</strong></p>
         </article>
       </div>
     </section>
